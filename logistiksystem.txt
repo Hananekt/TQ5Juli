@@ -1,0 +1,48 @@
+1. Ziel
+Ein System für:
+
+Fahrer: Sie sehen ihre Touren und melden den Lieferstatus über eine App.
+
+Disponenten: Sie planen Touren und weisen Fahrer zu – über eine Weboberfläche.
+
+Das System übernimmt alte Daten und zeigt Fahrzeuge in Echtzeit an.
+
+2. Technik
+Aufbau: In kleinen, unabhängigen Diensten (Microservices).
+
+Frontend:
+
+Fahrer: App mit Flutter oder React Native (läuft auf Android und iOS).
+
+Disponenten: Weboberfläche mit React oder Angular.
+
+Backend: Serverlogik mit Node.js oder Java.
+
+Datenbank: PostgreSQL (Daten), Redis (Zwischenspeicher).
+
+Live-Tracking: Über WebSockets oder MQTT.
+
+3. Funktionen
+Fahrer sieht Touren & meldet Lieferstatus.
+
+Disponent plant Touren und sieht alle Fahrzeuge live.
+
+Altdaten werden übernommen.
+
+GPS-Tracking zeigt aktuelle Positionen.
+
+4. Sicherheit
+Jeder Nutzer hat eigene Login-Daten (OAuth2).
+
+Zugriffsrechte je nach Rolle (Fahrer, Disponent, Admin).
+
+Alle Daten werden verschlüsselt übertragen (SSL).
+
+DSGVO-konform: Standortdaten nur mit Einwilligung.
+
+5. Tests
+Funktionen werden automatisch und manuell getestet.
+
+Sicherheitstests gegen Angriffe.
+
+Echtzeitdaten und viele Nutzer werden simuliert.
