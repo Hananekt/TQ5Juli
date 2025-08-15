@@ -13,4 +13,4 @@ meinen_Lieblingssport = " Reiten "
 print ("Wenn nur "+mein_Lieblingsauto+ mein_Lieblingsgetränk+ "als Kraftstoff verwenden könnte, um "+ meinen_Lieblingssport+ "auszuüben.\nDann wäre ich zufrieden!")
 
 # 2
-print ("Wenn nur "+ mein_Lieblingsauto[6:16]+ mein_Lieblingsgetränk[6:16]+ "als Kraftstoff verwenden könnte, um "+ meinen_Lieblingssport[6:16]+ "auszuüben.\nDann wäre ich zufrieden!")
+print ("Wenn nur "+ mein_Lieblingsauto[6:16]+ mein_Lieblingsgetränk[6:17]+ "als Kraftstoff verwenden könnte, um "+ meinen_Lieblingssport[6:16]+ "auszuüben.\nDann wäre ich zufrieden!")
